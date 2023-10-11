@@ -1,0 +1,249 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &8579815678108702674
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 54fa25896d95829419d508ad6ae85768,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 54fa25896d95829419d508ad6ae85768,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 244.95999
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 54fa25896d95829419d508ad6ae85768,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 244.95992
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 54fa25896d95829419d508ad6ae85768,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 244.95993
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 54fa25896d95829419d508ad6ae85768,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.352
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 54fa25896d95829419d508ad6ae85768,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.47
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 54fa25896d95829419d508ad6ae85768,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.507
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 54fa25896d95829419d508ad6ae85768,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.50746876
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 54fa25896d95829419d508ad6ae85768,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.8605782
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 54fa25896d95829419d508ad6ae85768,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.022028493
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 54fa25896d95829419d508ad6ae85768,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.03735634
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 54fa25896d95829419d508ad6ae85768,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -118.946
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 54fa25896d95829419d508ad6ae85768,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -4.9710083
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 54fa25896d95829419d508ad6ae85768,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 54fa25896d95829419d508ad6ae85768,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1a752f113960f3c4096ef9b56b63595f, type: 2}
+    - target: {fileID: -7511558181221131132, guid: 54fa25896d95829419d508ad6ae85768,
+        type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1a752f113960f3c4096ef9b56b63595f, type: 2}
+    - target: {fileID: -7511558181221131132, guid: 54fa25896d95829419d508ad6ae85768,
+        type: 3}
+      propertyPath: m_Materials.Array.data[2]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1a752f113960f3c4096ef9b56b63595f, type: 2}
+    - target: {fileID: 919132149155446097, guid: 54fa25896d95829419d508ad6ae85768,
+        type: 3}
+      propertyPath: m_Name
+      value: Knife Variant
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 54fa25896d95829419d508ad6ae85768, type: 3}
+--- !u!1 &8921852100551518851 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 54fa25896d95829419d508ad6ae85768,
+    type: 3}
+  m_PrefabInstance: {fileID: 8579815678108702674}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &1814402375840200115
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8921852100551518851}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!95 &7546947879822811512
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8921852100551518851}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 5db3855e64e667c49a77541db7c60890, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &2235407423754126450
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8921852100551518851}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10a55c3306c147f48a0977aec8f756f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  KnifeAnim: {fileID: 7546947879822811512}
+  AudSc: {fileID: 1814402375840200115}
+  knifeMetal: {fileID: 8300000, guid: d75bc856fbe39544192f87ac4209a94d, type: 3}
+  knifeWood: {fileID: 8300000, guid: 905e7c8cac93d444dac1e5d358b12a7b, type: 3}
+  FPCamera: {fileID: 0}
+  stabDecal: {fileID: 8211838604782116715, guid: 8db3b4282be1a054fa8ef1b5e36a8419,
+    type: 3}
+  knifeSparks: {fileID: 7156645326672187495, guid: a92859464efee334d8a901f3550783a4,
+    type: 3}
+  woodStabDecal: {fileID: 7249902194932638493, guid: 31fe9598ba64e014d90b90154649202e,
+    type: 3}
+  knifeChips: {fileID: 1980984272018606754, guid: 267023abf3ee22c49a273e277ece9e4c,
+    type: 3}
+  knifeRange: 1.5

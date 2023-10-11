@@ -1,0 +1,56 @@
+{
+    "name": "TESTING",
+    "maps": [
+        {
+            "name": "poop",
+            "id": "0671bfce-67c0-4d38-ac27-babf6df14c6c",
+            "actions": [
+                {
+                    "name": "LOOOOOKY",
+                    "type": "Value",
+                    "id": "f5e3112f-3626-487c-b8d1-db9dcea76c25",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "56176272-e786-400a-9ecb-4d716097fbf1",
+                    "path": "<Mouse>/delta",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "TESTING",
+                    "action": "LOOOOOKY",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "TESTING",
+            "bindingGroup": "TESTING",
+            "devices": [
+                {
+                    "devicePath": "<Gamepad>",
+                    "isOptional": false,
+                    "isOR": false
+                },
+                {
+                    "devicePath": "<Mouse>",
+                    "isOptional": false,
+                    "isOR": false
+                },
+                {
+                    "devicePath": "<Keyboard>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
+}
