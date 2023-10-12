@@ -20,13 +20,13 @@ public class fullPlateSounds : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Quaternion thisRotation = transform.rotation;
+        
     }
 
     private void OnCollisionEnter(Collision collision)
     {
         AudSc.PlayOneShot(glassSound);
-        GameObject platePieces = Instantiate(brokenPlate, transform.position, thisRotation);
+        GameObject platePieces = Instantiate(brokenPlate, transform.position, transform.rotation);
         GetComponent<MeshRenderer>().enabled = false;
         GetComponent<Collider>().enabled = false;
         Destroy(platePieces, 5f);

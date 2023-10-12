@@ -90,6 +90,8 @@ public class Knife : MonoBehaviour
         }
     }
 
+
+    GameObject NewBottle;
     void breakBottle()
     {
         RaycastHit bottleHit;
@@ -98,7 +100,8 @@ public class Knife : MonoBehaviour
         Physics.Raycast(FPCamera.transform.position, FPCamera.transform.forward, out bottleHit, 1.5f);
         if(bottleHit.collider.CompareTag("Bottle"))
         {
-            GameObject NewBottle = Instantiate(brokenBottle, bottleHit.collider.transform.position, Quaternion.identity );
+
+            GameObject NewBottle = Instantiate(brokenBottle, bottleHit.collider.transform.position, bottleHit.transform.rotation );
             AudSc.PlayOneShot(bottleBreak);
             GameObject currentBottle = bottleHit.collider.gameObject;
             Destroy(currentBottle);
