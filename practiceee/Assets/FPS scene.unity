@@ -1682,7 +1682,8 @@ PrefabInstance:
       propertyPath: pauseScreen
       value: 
       objectReference: {fileID: 347829620}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1851440905805569943, guid: 324a9dd929ad1964cac9c51fa2d20452, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 324a9dd929ad1964cac9c51fa2d20452, type: 3}
 --- !u!1001 &517209413
 PrefabInstance:
@@ -3155,8 +3156,8 @@ MonoBehaviour:
   fullPlate: {fileID: 79134785121933232, guid: d66b776fe9917bc4888abe57b20ca851, type: 3}
   brokenPlate: {fileID: 3165242964473655984, guid: e60a506e3db535b4992c92c8b2b3ce9a,
     type: 3}
-  throwForce: 250
-  plateTimer: 1.5
+  throwForce: 500
+  plateTimer: 1.2
 --- !u!1001 &905473519
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -24,11 +24,12 @@ public class plateThrow : MonoBehaviour
     void Update()
     {
         plateTimer -= Time.fixedDeltaTime;
-        Debug.Log(plateTimer);
+        Debug.Log(plateTimer); 
     }
 
     public void OnPlateThrow(InputAction.CallbackContext context)
     {
+        
         if ((context.performed) && plateTimer <= 0)
         {
             plateTimer = 1.5f;
